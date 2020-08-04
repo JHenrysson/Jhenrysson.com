@@ -1,0 +1,12 @@
+.jumbotron-fluid{
+    background-image: url("images/jhBanner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    padding-top: 250px;
+    position: relative;
+    margin-bottom: 0;
+}
+
