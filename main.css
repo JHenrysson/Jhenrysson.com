@@ -19,3 +19,11 @@ ul.navbar-nav{
 .footerText{
     align-content: center;
 }
+.list-inline-item{
+    color: black;
+}
+img{
+    width: 20%;
+    height: 20%;
+     margin-left: 10%;
+}
