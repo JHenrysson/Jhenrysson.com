@@ -40,7 +40,15 @@ ul.navbar-nav{
 #ContactMe{
     margin-top: 10%;
 }
-.media-body{
-    margin-right: 15%;
-    margin-left: 15%;
+#textAbout{ /*text body*/
+
+    background-color: #EFF3F1;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+h5{
+    text-align: center;
+    margin-bottom: 5%;
 }
