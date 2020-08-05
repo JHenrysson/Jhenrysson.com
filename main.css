@@ -1,5 +1,5 @@
 .jumbotron-fluid2{
-    background-image: url("images/jhBanner.png");
+    background-image: url("images/JHBanner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,9 @@
     padding-top: 250px;
     position: relative;
     margin-bottom: 0;
+}
+.btn-floating{
+    color: black;
 }
 .navbar-collapse{
     font-size: 20px;
@@ -23,7 +26,12 @@ ul.navbar-nav{
     color: black;
 }
 img{
-    width: 20%;
+    width: 30%;
     height: 20%;
-     margin-left: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+#ContactMe{
+    margin-top: 10%;
 }
