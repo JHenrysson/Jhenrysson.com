@@ -18,6 +18,16 @@
     margin:auto;
     display: table;
 }
+.jumbotron-fluid4{
+    background-image: url("images/comingSoon.png");
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    padding-top: 250px;
+    margin:auto;
+    display: table;
+
+}
 .btn-floating{
     color: black;
 }
@@ -110,3 +120,15 @@ input[type=submit]:hover {
     background-color: #F7F7F8;
 }
 
+img.comingSoon{
+    display: table;
+    margin: auto;
+    background-size: cover;
+
+
+}
+#comingSoon1{
+    background-color: #e7e7e7;
+    border-style: solid;
+    margin-bottom: 4%;
+}
