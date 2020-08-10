@@ -135,8 +135,9 @@ img.comingSoon{
 
 /*size when big window*/
 @media (min-width: 1209px) {
-   .jumbotron-fluid4,.jumbotron-fluid3.jumbotron-fluid2.jumbotron-fluid{
+   .jumbotron-fluid4.jumbotron-fluid3.jumbotron-fluid2.jumbotron-fluid{
         padding: 200px;
+       max-width: 50%;
     }
 }
 /*size when app/small window*/
