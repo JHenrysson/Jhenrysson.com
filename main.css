@@ -2,12 +2,12 @@
     background-image: url("images/JHBanner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: auto;
     width: auto;
     padding-top: 250px;
     position: relative;
     margin-bottom: 0;
+    background-repeat: no-repeat;
 }
 .jumbotron-fluid3{
     background-image: url("images/aboutMebanner.jpg");
@@ -60,7 +60,7 @@ ul.navbar-nav{
     margin-top: 10%;
 }
 #textAbout{ /*text body*/
-
+    text-align: center;
     background-color: white;
     padding-left: 10%;
     padding-right: 10%;
@@ -115,6 +115,9 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     padding: 20px;
+    width: 60%;
+
+
 }
 #ContactMe{
     background-color: #F7F7F8;
@@ -132,20 +135,14 @@ img.comingSoon{
     border-style: solid;
     margin-bottom: 4%;
 }
-
-/*size when big window*/
-@media (min-width: 1209px) {
-   .jumbotron-fluid4.jumbotron-fluid3.jumbotron-fluid2.jumbotron-fluid{
-        padding: 200px;
-       max-width: 50%;
-    }
+#projects{
+    align-content: center;
+    margin: auto;
+    display: table;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
 }
-/*size when app/small window*/
-@media (max-width: 700px) {
-    .jumbotron-fluid4,.jumbotron-fluid3.jumbotron-fluid2.jumbotron-fluid{
-        padding: 100px;
-    }
+.card{
+    margin-top: 40px;
 }
-
-
-

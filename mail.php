@@ -6,6 +6,7 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 $mail = new PHPMailer();
+//SMTP- see notes
 
 $mail->isSMTP();
 $mail->Host = 'mailcluster.loopia.se';
@@ -16,18 +17,18 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 $mail->CharSet = 'UTF-8';
 
-$mail->From = 'contact@jhenrysson.com';
-$mail->FromName = 'Joselyn Henrysson';
-$mail->addAddress('joselyngodoy792@gmail.com');
-$mail->addReplyTo('contact@jhenrysson.com', 'Contact');
+$mail->From = $_POST['email'];
+$mail->FromName = 'Website Inquiry';
+$mail->addAddress('jhenrysson0715@gmail.com');
 
-$mail->Subject = 'Test';
-$mail->Body = 'Test message';
+$mail->Subject = $_POST['firstname'];
+$mail->Body = $_POST['subject'];
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo 'Message has been sent';
+header("Location: ./?home");
+die();
 }
 ?>
